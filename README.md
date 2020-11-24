@@ -1,7 +1,7 @@
 # Welcome to React Native Boilerplate 👋
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-> React Native Boilerplate with Redux and Graphgl, and implementing Atomic Design Pattern
+> React Native Boilerplate with Redux and Graphgl, and implementing Atomic Design Pattern (Aroma UI)
 
 **Tested on a big scalable projects**
 
