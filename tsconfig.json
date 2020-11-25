@@ -10,15 +10,15 @@
         "noEmit": true,
         "skipLibCheck": true,
         "paths": {
-            "app/*": ["./src/*"],
-            "atoms/*": ["./src/components/atoms/*"],
-            "molecule/*": ["./src/components/molecules/*"],
-            "organisms/*": ["./src/components/organisms/*"],
-            "templates/*": ["./src/components/templates/*"],
-            "screens/*": ["./src/screens/*"],
-            "helpers/*": ["./src/utils/helpers/*"],
-            "hooks/*": ["./src/utils/hooks/*"],
-            "style/*":["./src/styles/*"],
+            "@app/*": ["./src/*"],
+            "@atoms/*": ["./src/components/atoms/*"],
+            "@molecule/*": ["./src/components/molecules/*"],
+            "@organisms/*": ["./src/components/organisms/*"],
+            "@templates/*": ["./src/components/templates/*"],
+            "@screens/*": ["./src/screens/*"],
+            "@helpers/*": ["./src/utils/helpers/*"],
+            "@hooks/*": ["./src/utils/hooks/*"],
+            "@style/*":["./src/styles/*"],
         }
     }
 }

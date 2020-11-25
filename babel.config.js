@@ -3,6 +3,7 @@ module.exports = function (api) {
     return {
         presets: ["babel-preset-expo", "@babel/preset-typescript"],
         plugins: [
+            "react-native-reanimated/plugin",
             [
                 "module-resolver",
                 {
@@ -17,13 +18,13 @@ module.exports = function (api) {
                         ".tsx"
                     ],
                     alias: {
-                        atoms: "./src/components/atoms",
-                        molecule: "./src/components/molecules",
-                        organisms: "./src/components/organisms",
-                        templates: "./src/components/templates",
-                        screens: "./src/screens",
-                        helpers: "./src/utils/helpers",
-                        hooks: "./src/utils/hooks"
+                        '@atoms': "./src/components/atoms",
+                        '@molecule': "./src/components/molecules",
+                        '@organisms': "./src/components/organisms",
+                        '@templates': "./src/components/templates",
+                        '@screens': "./src/screens",
+                        '@helpers': "./src/utils/helpers",
+                        '@hooks': "./src/utils/hooks"
                     }
                 }
             ]
