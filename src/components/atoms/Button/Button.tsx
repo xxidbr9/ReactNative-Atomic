@@ -16,7 +16,7 @@ type Props = {
     color?: ColorEnum | String,
     disable?: Boolean,
     align?: Align,
-    children?: String,
+    children?: any,
 }
 
 const Button: React.FC<Props> = ({
@@ -90,7 +90,6 @@ Button.propTypes = {
     ]),
     disable: PropsType.bool,
     align: PropsType.oneOf(["center", "left", "right"]),
-    children: PropsType.string
 
 }
 

@@ -4,6 +4,12 @@ import { RFPercentage as rPer } from "react-native-responsive-fontsize";
  ? it is tested on iphone 8 plus 
  */
 
+/**
+* A module that says hello!
+* @module hello/world
+*/
+
+
 export default {
     h1: rPer(3.1), // 23
     h2: rPer(2.8), // 20
