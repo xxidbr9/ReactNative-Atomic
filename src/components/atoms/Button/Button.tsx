@@ -2,6 +2,10 @@ import React, { ReactNode } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import PropsType from 'prop-types'
 
+/* 
+? Require Some Additional
+*/
+
 type TypeEnum = "dots" | "dash" | "ghost" | "link" | "button"
 type ColorEnum = "primary" | "secondary" | "info" | "success" | "danger"
 type Align = "center" | "left" | "right"
