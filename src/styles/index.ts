@@ -1,9 +1,10 @@
 import FontScale from "./FontScale";
 // import FontFace from "./FontFace";
-import Color from "./Colors";
-
+import Colors from "./Colors";
+import Sizing from "./Sizing";
 export {
-    FontScale,
-    // FontFace,
-    Color
+	FontScale,
+	// FontFace,
+	Sizing,
+	Colors,
 };

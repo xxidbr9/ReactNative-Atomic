@@ -18,7 +18,7 @@ const getFontScale = (P) => FontScale[P];
 
 /**
  * Change text size base on typograph with base text 14px
- * @param {{Number | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'}} fontScale
+ * @param {{Number | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'}} fontScale  a font scale or change that as a decimal number
  */
 
 /* 
@@ -49,6 +49,6 @@ Typograph.propTypes = {
         PropType.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'h6',])
     ])
 }
-const styles = StyleSheet.create({})
+// const styles = StyleSheet.create({})
 
 export default Typograph
